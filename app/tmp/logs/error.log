@@ -1,0 +1,1990 @@
+2017-02-24 11:37:00 Error: [MissingTableException] Table rolls for model Roll was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'rolls',
+  'class' => 'Roll',
+  'ds' => 'default',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3667): Model->setSource('rolls')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1490): Model->schema()
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1477): Model->hasField('title', false)
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(914): Model->hasField(Array)
+#5 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3206): Model->__get('displayField')
+#6 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3071): Model->_findList('before', Array)
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3005): Model->buildQuery('list', Array)
+#8 /var/www/survey/survey_app_2x/cakephp/app/Controller/UsersController.php(58): Model->find('list')
+#9 [internal function]: UsersController->add()
+#10 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#13 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-02-24 11:39:19 Error: [MissingTableException] Table rolls for model Roll was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'rolls',
+  'class' => 'Roll',
+  'ds' => 'default',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3667): Model->setSource('rolls')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1490): Model->schema()
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1477): Model->hasField('title', false)
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(914): Model->hasField(Array)
+#5 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3206): Model->__get('displayField')
+#6 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3071): Model->_findList('before', Array)
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3005): Model->buildQuery('list', Array)
+#8 /var/www/survey/survey_app_2x/cakephp/app/Controller/UsersController.php(58): Model->find('list')
+#9 [internal function]: UsersController->add()
+#10 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#13 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-02-24 11:39:48 Error: Fatal Error (1): Call to a member function find() on null in [/var/www/survey/survey_app_2x/cakephp/app/Controller/UsersController.php, line 58]
+2017-02-24 11:39:48 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/survey...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/survey...', 58, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/survey...', 58, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-24 11:40:22 Error: Fatal Error (1): Call to a member function find() on null in [/var/www/survey/survey_app_2x/cakephp/app/Controller/UsersController.php, line 58]
+2017-02-24 11:40:22 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/survey...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/survey...', 58, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/survey...', 58, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-24 11:41:38 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-24 11:42:35 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Request URL: /user_roles/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('INSERT INTO `su...', Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(1090): DboSource->execute('INSERT INTO `su...')
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1940): DboSource->create(Object(UserRole), Array, Array)
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1758): Model->_doSave(Array, Array)
+#5 /var/www/survey/survey_app_2x/cakephp/app/Controller/UserRolesController.php(51): Model->save(Array)
+#6 [internal function]: UserRolesController->add()
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UserRolesController), Array)
+#8 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserRolesController), Object(CakeRequest))
+#10 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-02-24 11:44:10 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Request URL: /user_roles/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('INSERT INTO `su...', Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(1090): DboSource->execute('INSERT INTO `su...')
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1940): DboSource->create(Object(UserRole), Array, Array)
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1758): Model->_doSave(Array, Array)
+#5 /var/www/survey/survey_app_2x/cakephp/app/Controller/UserRolesController.php(51): Model->save(Array)
+#6 [internal function]: UserRolesController->add()
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UserRolesController), Array)
+#8 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserRolesController), Object(CakeRequest))
+#10 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-02-24 11:45:30 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Request URL: /user_roles/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('INSERT INTO `su...', Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(1090): DboSource->execute('INSERT INTO `su...')
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1940): DboSource->create(Object(UserRole), Array, Array)
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1758): Model->_doSave(Array, Array)
+#5 /var/www/survey/survey_app_2x/cakephp/app/Controller/UserRolesController.php(51): Model->save(Array)
+#6 [internal function]: UserRolesController->add()
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UserRolesController), Array)
+#8 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserRolesController), Object(CakeRequest))
+#10 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-02-24 11:47:26 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Request URL: /user_roles/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('INSERT INTO `su...', Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(1090): DboSource->execute('INSERT INTO `su...')
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1940): DboSource->create(Object(UserRole), Array, Array)
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1758): Model->_doSave(Array, Array)
+#5 /var/www/survey/survey_app_2x/cakephp/app/Controller/UserRolesController.php(51): Model->save(Array)
+#6 [internal function]: UserRolesController->add()
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UserRolesController), Array)
+#8 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserRolesController), Object(CakeRequest))
+#10 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-02-24 11:54:45 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('INSERT INTO `su...', Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(1090): DboSource->execute('INSERT INTO `su...')
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1940): DboSource->create(Object(User), Array, Array)
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1758): Model->_doSave(Array, Array)
+#5 /var/www/survey/survey_app_2x/cakephp/app/Controller/UsersController.php(53): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-02-24 11:58:20 Error: [MissingControllerException] Controller class SurviesController could not be found.
+Exception Attributes: array (
+  'class' => 'SurviesController',
+  'plugin' => NULL,
+)
+Request URL: /survies/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-24 11:59:39 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Request URL: /surveries/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('INSERT INTO `su...', Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(1090): DboSource->execute('INSERT INTO `su...')
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1940): DboSource->create(Object(Survery), Array, Array)
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1758): Model->_doSave(Array, Array)
+#5 /var/www/survey/survey_app_2x/cakephp/app/Controller/SurveriesController.php(51): Model->save(Array)
+#6 [internal function]: SurveriesController->add()
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveriesController), Array)
+#8 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveriesController), Object(CakeRequest))
+#10 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-02-26 10:52:25 Error: [NotFoundException] Invalid survey question
+Request URL: /survey_questions/view/
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->view()
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 12:56:01 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Can\'t connect to local MySQL server through socket \'/var/run/mysqld/mysqld.sock\' (2)',
+  'enabled' => true,
+)
+Request URL: /survey_questions/
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3667): Model->setSource('survey_question...')
+#5 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3010): Model->_readDataSource('all', Array)
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php(25): PaginatorComponent->paginate()
+#9 [internal function]: SurveyQuestionsController->index()
+#10 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#11 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#13 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-02-26 12:56:01 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Can\'t connect to local MySQL server through socket \'/var/run/mysqld/mysqld.sock\' (2)',
+  'enabled' => true,
+)
+Request URL: /survey_questions/
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3667): Model->setSource('survey_question...')
+#5 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3010): Model->_readDataSource('all', Array)
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php(25): PaginatorComponent->paginate()
+#9 [internal function]: SurveyQuestionsController->index()
+#10 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#11 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#13 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-02-26 12:56:02 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Can\'t connect to local MySQL server through socket \'/var/run/mysqld/mysqld.sock\' (2)',
+  'enabled' => true,
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3667): Model->setSource('users')
+#5 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#6 /var/www/survey/survey_app_2x/cakephp/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('User', 'fields')
+#8 /var/www/survey/survey_app_2x/cakephp/app/View/Users/add.ctp(34): FormHelper->create('User', Array)
+#9 /var/www/survey/survey_app_2x/cakephp/lib/Cake/View/View.php(971): include('/var/www/survey...')
+#10 /var/www/survey/survey_app_2x/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/survey...', Array)
+#11 /var/www/survey/survey_app_2x/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/survey...')
+#12 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#13 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#14 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2017-02-26 12:57:43 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2013] Lost connection to MySQL server at \'waiting for initial communication packet\', system error: 95',
+  'enabled' => true,
+)
+Request URL: /survey_questions/
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3667): Model->setSource('survey_question...')
+#5 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3010): Model->_readDataSource('all', Array)
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php(25): PaginatorComponent->paginate()
+#9 [internal function]: SurveyQuestionsController->index()
+#10 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#11 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#13 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-02-26 12:58:47 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2013] Lost connection to MySQL server at \'waiting for initial communication packet\', system error: 95',
+  'enabled' => true,
+)
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(3667): Model->setSource('users')
+#5 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#6 /var/www/survey/survey_app_2x/cakephp/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('User', 'fields')
+#8 /var/www/survey/survey_app_2x/cakephp/app/View/Users/add.ctp(34): FormHelper->create('User', Array)
+#9 /var/www/survey/survey_app_2x/cakephp/lib/Cake/View/View.php(971): include('/var/www/survey...')
+#10 /var/www/survey/survey_app_2x/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/var/www/survey...', Array)
+#11 /var/www/survey/survey_app_2x/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/survey...')
+#12 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#13 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#14 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2017-02-26 13:03:21 Error: [MissingActionException] Action SurveyQuestionsController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'SurveyQuestionsController',
+  'action' => 'users',
+)
+Request URL: /survey_questions/users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-26 13:20:48 Error: Fatal Error (1): Class 'Security' not found in [/var/www/survey/survey_app_2x/cakephp/app/Model/User.php, line 124]
+2017-02-26 13:20:48 Error: [FatalErrorException] Class 'Security' not found
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'Security...', '/var/www/survey...', 124)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Security...', '/var/www/survey...', 124, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Security...', '/var/www/survey...', 124, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-26 13:25:02 Error: Fatal Error (1): Class 'SimplePasswordHasher' not found in [/var/www/survey/survey_app_2x/cakephp/app/Model/User.php, line 124]
+2017-02-26 13:25:02 Error: [FatalErrorException] Class 'SimplePasswordHasher' not found
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'SimplePa...', '/var/www/survey...', 124)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'SimplePa...', '/var/www/survey...', 124, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'SimplePa...', '/var/www/survey...', 124, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-26 13:25:53 Error: [PDOException] SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'password' at row 1
+Request URL: /users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('INSERT INTO `su...', Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(1090): DboSource->execute('INSERT INTO `su...')
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1940): DboSource->create(Object(User), Array, Array)
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1758): Model->_doSave(Array, Array)
+#5 /var/www/survey/survey_app_2x/cakephp/app/Controller/UsersController.php(53): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-02-26 13:45:49 Error: Fatal Error (1): Call to a member function allow() on null in [/var/www/survey/survey_app_2x/cakephp/app/Controller/UsersController.php, line 25]
+2017-02-26 13:45:49 Error: [FatalErrorException] Call to a member function allow() on null
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/survey...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/survey...', 25, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/survey...', 25, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-26 15:06:48 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-26 15:07:16 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-26 15:47:24 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-26 15:57:23 Error: Fatal Error (1): Call to a member function exists() on null in [/var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php, line 49]
+2017-02-26 15:57:23 Error: [FatalErrorException] Call to a member function exists() on null
+Request URL: /survey_questions/add/33
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/survey...', 49)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/survey...', 49, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/survey...', 49, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-26 15:58:03 Error: [NotFoundException] Invalid survey
+Request URL: /survey_questions/add/33
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('33')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 15:58:49 Error: [NotFoundException] Invalid survey
+Request URL: /survey_questions/add/33
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('33')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 15:58:57 Error: [NotFoundException] Invalid survey
+Request URL: /survey_questions/add/
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add()
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 16:01:49 Error: [NotFoundException] Invalid survey question
+Request URL: /survey_questions/add/33
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('33')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 16:02:47 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/33
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('33')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 16:07:22 Error: Fatal Error (1): Call to a member function find() on null in [/var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php, line 63]
+2017-02-26 16:07:22 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /survey_questions/add/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/survey...', 63)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/survey...', 63, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/survey...', 63, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-26 16:14:43 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/22
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('22')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 16:22:33 Error: Fatal Error (1): Call to a member function success() on null in [/var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php, line 53]
+2017-02-26 16:22:33 Error: [FatalErrorException] Call to a member function success() on null
+Request URL: /survey_questions/add/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/survey...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/survey...', 53, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/survey...', 53, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-26 16:23:30 Error: Fatal Error (1): Call to a member function success() on null in [/var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php, line 53]
+2017-02-26 16:23:30 Error: [FatalErrorException] Call to a member function success() on null
+Request URL: /survey_questions/add/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/survey...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/survey...', 53, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/survey...', 53, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-26 16:24:13 Error: Fatal Error (1): Call to a member function success() on null in [/var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php, line 53]
+2017-02-26 16:24:13 Error: [FatalErrorException] Call to a member function success() on null
+Request URL: /survey_questions/add/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/survey...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/survey...', 53, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/survey...', 53, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-26 16:24:47 Error: Fatal Error (1): Call to a member function success() on null in [/var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php, line 53]
+2017-02-26 16:24:47 Error: [FatalErrorException] Call to a member function success() on null
+Request URL: /survey_questions/add/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/survey...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/survey...', 53, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/survey...', 53, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-26 16:26:04 Error: Fatal Error (1): Call to a member function success() on null in [/var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php, line 53]
+2017-02-26 16:26:04 Error: [FatalErrorException] Call to a member function success() on null
+Request URL: /survey_questions/add/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/survey...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/survey...', 53, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/survey...', 53, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-26 16:27:07 Error: Fatal Error (1): Call to a member function success() on null in [/var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php, line 53]
+2017-02-26 16:27:07 Error: [FatalErrorException] Call to a member function success() on null
+Request URL: /survey_questions/add/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/survey...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/survey...', 53, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/survey...', 53, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-26 16:29:14 Error: Fatal Error (1): Call to a member function success() on null in [/var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php, line 54]
+2017-02-26 16:29:14 Error: [FatalErrorException] Call to a member function success() on null
+Request URL: /survey_questions/add/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/survey...', 54)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/survey...', 54, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/survey...', 54, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-26 16:29:24 Error: Fatal Error (1): Call to a member function success() on null in [/var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php, line 54]
+2017-02-26 16:29:24 Error: [FatalErrorException] Call to a member function success() on null
+Request URL: /survey_questions/add/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/survey...', 54)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/survey...', 54, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/survey...', 54, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-26 16:30:28 Error: Fatal Error (1): Call to a member function success() on null in [/var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php, line 53]
+2017-02-26 16:30:28 Error: [FatalErrorException] Call to a member function success() on null
+Request URL: /survey_questions/add/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/survey...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/survey...', 53, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/survey...', 53, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-26 16:31:08 Error: [PDOException] SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'order' at row 1
+Request URL: /survey_questions/add/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('INSERT INTO `su...', Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(1090): DboSource->execute('INSERT INTO `su...')
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1940): DboSource->create(Object(SurveyQuestion), Array, Array)
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1758): Model->_doSave(Array, Array)
+#5 /var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php(52): Model->save(Array)
+#6 [internal function]: SurveyQuestionsController->add('1')
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#8 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#10 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-02-26 16:31:27 Error: Fatal Error (1): Call to a member function success() on null in [/var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php, line 53]
+2017-02-26 16:31:27 Error: [FatalErrorException] Call to a member function success() on null
+Request URL: /survey_questions/add/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/survey...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/survey...', 53, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/survey...', 53, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-26 16:31:52 Error: [MissingControllerException] Controller class SurveyController could not be found.
+Exception Attributes: array (
+  'class' => 'SurveyController',
+  'plugin' => NULL,
+)
+Request URL: /survey
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-26 16:32:21 Error: [MissingControllerException] Controller class SurveyController could not be found.
+Exception Attributes: array (
+  'class' => 'SurveyController',
+  'plugin' => NULL,
+)
+Request URL: /survey
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-26 16:32:25 Error: [MissingControllerException] Controller class SurveiesController could not be found.
+Exception Attributes: array (
+  'class' => 'SurveiesController',
+  'plugin' => NULL,
+)
+Request URL: /surveies
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-26 16:37:24 Error: Fatal Error (1): Call to a member function success() on null in [/var/www/survey/survey_app_2x/cakephp/app/Controller/SurveysController.php, line 75]
+2017-02-26 16:37:24 Error: [FatalErrorException] Call to a member function success() on null
+Request URL: /surveys/edit/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/survey...', 75)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/survey...', 75, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/survey...', 75, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-26 17:28:08 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add()
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 17:30:45 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add()
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 17:31:58 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add()
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 17:32:17 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-26 17:38:01 Error: [MissingControllerException] Controller class SurveyQuestionsOptionsController could not be found.
+Exception Attributes: array (
+  'class' => 'SurveyQuestionsOptionsController',
+  'plugin' => NULL,
+)
+Request URL: /survey_questions_options
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-26 17:45:49 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add()
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 17:51:34 Error: [PDOException] SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'order' at row 1
+Request URL: /survey_questions/add/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('INSERT INTO `su...', Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(1090): DboSource->execute('INSERT INTO `su...')
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1940): DboSource->create(Object(SurveyQuestion), Array, Array)
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1758): Model->_doSave(Array, Array)
+#5 /var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php(52): Model->save(Array)
+#6 [internal function]: SurveyQuestionsController->add('1')
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#8 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#10 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-02-26 17:51:49 Error: [PDOException] SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'order' at row 1
+Request URL: /survey_questions/add/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('INSERT INTO `su...', Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(1090): DboSource->execute('INSERT INTO `su...')
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1940): DboSource->create(Object(SurveyQuestion), Array, Array)
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1758): Model->_doSave(Array, Array)
+#5 /var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php(52): Model->save(Array)
+#6 [internal function]: SurveyQuestionsController->add('1')
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#8 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#10 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-02-26 17:52:05 Error: [PDOException] SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'order' at row 1
+Request URL: /survey_questions/add/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('INSERT INTO `su...', Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(1090): DboSource->execute('INSERT INTO `su...')
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1940): DboSource->create(Object(SurveyQuestion), Array, Array)
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1758): Model->_doSave(Array, Array)
+#5 /var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php(52): Model->save(Array)
+#6 [internal function]: SurveyQuestionsController->add('1')
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#8 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#10 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-02-26 18:02:48 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add()
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 18:02:52 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 18:02:52 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 18:02:52 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:46:05 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:46:07 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:46:08 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:47:11 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:51:11 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/js/add_option.js
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('js', 'add_option.js')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:51:11 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/js/add_option.js
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('js', 'add_option.js')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:51:11 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:51:13 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:51:13 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/js/add_option.js
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('js', 'add_option.js')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:51:13 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:51:23 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/js/add_option.js
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('js', 'add_option.js')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:51:23 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:51:23 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/js/add_option.js
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('js', 'add_option.js')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:51:24 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:52:40 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/js/add_option.js
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('js', 'add_option.js')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:52:41 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/js/add_option.js
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('js', 'add_option.js')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:52:42 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:52:42 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/js/add_option.js
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('js', 'add_option.js')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:52:42 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:53:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/add_option.js
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-26 21:53:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/add_option.js
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-26 21:53:18 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:53:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/add_option.js
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-26 21:53:21 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:53:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/add_option.js
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-26 21:53:48 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:53:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/add_option.js
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-26 21:53:49 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:54:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/add_option.js
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-26 21:54:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/add_option.js
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-26 21:54:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/add_option.js
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-26 21:54:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/add_option.js
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-26 21:54:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/add_option.js
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-26 21:54:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/add_option.js
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-26 21:55:31 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 21:55:33 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/add-icon.png
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('add-icon.png')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 22:15:54 Error: [NotFoundException] Invalid survey ID
+Request URL: /survey_questions/add/13
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->add('13')
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-26 22:16:41 Error: [MissingActionException] Action SurveyQuestionsController::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'SurveyQuestionsController',
+  'action' => 'admin',
+)
+Request URL: /survey_questions/admin/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-26 22:26:18 Error: [MissingActionException] Action SurveyQuestionsController::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'SurveyQuestionsController',
+  'action' => 'admin',
+)
+Request URL: /survey_questions/admin/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-26 22:35:41 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [/var/www/survey/survey_app_2x/cakephp/app/View/SurveyQuestions/add.ctp, line 37]
+2017-02-26 22:35:41 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /survey_questions/add/2
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/survey...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/survey...', 37, Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/survey...', 37, Array)
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-26 22:36:55 Error: [PDOException] SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'order' at row 1
+Request URL: /survey_questions/add/2
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('INSERT INTO `su...', Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(1090): DboSource->execute('INSERT INTO `su...')
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1940): DboSource->create(Object(SurveyQuestion), Array, Array)
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1758): Model->_doSave(Array, Array)
+#5 /var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php(52): Model->save(Array)
+#6 [internal function]: SurveyQuestionsController->add('2')
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#8 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#10 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-02-26 22:47:24 Error: [PDOException] SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'order' at row 1
+Request URL: /survey_questions/add/3
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('INSERT INTO `su...', Array)
+#2 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Datasource/DboSource.php(1090): DboSource->execute('INSERT INTO `su...')
+#3 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1940): DboSource->create(Object(SurveyQuestion), Array, Array)
+#4 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Model/Model.php(1758): Model->_doSave(Array, Array)
+#5 /var/www/survey/survey_app_2x/cakephp/app/Controller/SurveyQuestionsController.php(53): Model->save(Array)
+#6 [internal function]: SurveyQuestionsController->add('3')
+#7 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#8 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/survey/survey_app_2x/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#10 /var/www/survey/survey_app_2x/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-03-01 19:43:46 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 19:43:53 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 19:44:18 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 19:44:22 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 19:44:25 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 19:44:28 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 19:44:32 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 19:44:39 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 19:45:06 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 19:45:17 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 19:45:25 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 19:45:52 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-01 19:46:07 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-01 19:50:58 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 19:57:17 Error: Fatal Error (1): Call to a member function check() on null in [/var/www/survey/survey_app_2x/survey_app/app/View/Users/login.ctp, line 27]
+2017-03-01 19:57:17 Error: [FatalErrorException] Call to a member function check() on null
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/survey...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/survey...', 27, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/survey...', 27, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-01 19:57:39 Error: Fatal Error (1): Call to a member function check() on null in [/var/www/survey/survey_app_2x/survey_app/app/View/Users/login.ctp, line 27]
+2017-03-01 19:57:39 Error: [FatalErrorException] Call to a member function check() on null
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/survey...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/survey...', 27, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/survey...', 27, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-01 20:11:25 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 51358003 bytes) in [/var/www/survey/survey_app_2x/survey_app/lib/Cake/Utility/Debugger.php, line 603]
+2017-03-01 20:11:25 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 51358003 bytes)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/survey...', 603)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/survey...', 603, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/survey...', 603, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-01 20:11:40 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 37214509 bytes) in [/var/www/survey/survey_app_2x/survey_app/lib/Cake/Utility/Debugger.php, line 603]
+2017-03-01 20:11:40 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 37214509 bytes)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/var/www/survey...', 603)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/var/www/survey...', 603, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/var/www/survey...', 603, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-01 20:24:36 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 20:24:57 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 20:25:50 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 20:27:02 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 20:38:59 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/var/www/survey/survey_app_2x/survey_app/app/View/Elements/navigation.ctp, line 18]
+2017-03-01 20:38:59 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /users
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/survey...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/survey...', 18, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/survey...', 18, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-01 20:39:08 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/var/www/survey/survey_app_2x/survey_app/app/View/Elements/navigation.ctp, line 18]
+2017-03-01 20:39:08 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /users
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/survey...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/survey...', 18, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/survey...', 18, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-01 20:42:34 Error: Fatal Error (4): syntax error, unexpected '">Logout</a></li>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [/var/www/survey/survey_app_2x/survey_app/app/View/Elements/navigation.ctp, line 18]
+2017-03-01 20:42:34 Error: [FatalErrorException] syntax error, unexpected '">Logout</a></li>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+Request URL: /users
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/survey...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/survey...', 18, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/survey...', 18, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-01 20:48:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'conditions' in 'where clause'
+Request URL: /surveys
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT `Survey`...', Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT `Survey`...', Array, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Datasource/DboSource.php(1184): DboSource->fetchAll('SELECT `Survey`...', false)
+#4 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(3038): DboSource->read(Object(Survey), Array)
+#5 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(3010): Model->_readDataSource('all', Array)
+#6 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /var/www/survey/survey_app_2x/survey_app/app/Controller/SurveysController.php(28): PaginatorComponent->paginate(Array)
+#8 [internal function]: SurveysController->index()
+#9 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveysController), Array)
+#10 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveysController), Object(CakeRequest))
+#12 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-03-01 20:50:43 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 20:56:00 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 20:58:31 Error: [MissingActionException] Action UsersController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => '1',
+)
+Request URL: /users/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 21:36:17 Error: [MissingActionException] Action SurveyQuestionsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'SurveyQuestionsController',
+  'action' => 'index',
+)
+Request URL: /survey_questions
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 21:40:59 Error: [NotFoundException] Invalid survey ID
+Request URL: /admin/survey_questions/add/1
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->admin_add('1')
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-01 21:43:23 Error: [MissingActionException] Action SurveysController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'SurveysController',
+  'action' => 'add',
+)
+Request URL: /surveys/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveysController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 21:45:14 Error: [MissingControllerException] Controller class SurveyQuestionsTypesController could not be found.
+Exception Attributes: array (
+  'class' => 'SurveyQuestionsTypesController',
+  'plugin' => NULL,
+)
+Request URL: /admin/survey_questions_types
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-01 21:54:43 Error: Fatal Error (4): syntax error, unexpected end of file in [/var/www/survey/survey_app_2x/survey_app/app/View/Pages/home.ctp, line 74]
+2017-03-01 21:54:43 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/survey...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/survey...', 74, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/survey...', 74, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-01 21:54:58 Error: Fatal Error (4): syntax error, unexpected end of file in [/var/www/survey/survey_app_2x/survey_app/app/View/Pages/home.ctp, line 54]
+2017-03-01 21:54:58 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/survey...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/survey...', 54, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/survey...', 54, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-01 21:55:00 Error: Fatal Error (4): syntax error, unexpected end of file in [/var/www/survey/survey_app_2x/survey_app/app/View/Pages/home.ctp, line 54]
+2017-03-01 21:55:00 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/survey...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/survey...', 54, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/survey...', 54, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-01 21:55:08 Error: Fatal Error (4): syntax error, unexpected end of file in [/var/www/survey/survey_app_2x/survey_app/app/View/Pages/home.ctp, line 54]
+2017-03-01 21:55:08 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/survey...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/survey...', 54, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/survey...', 54, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-01 21:55:16 Error: Fatal Error (4): syntax error, unexpected end of file in [/var/www/survey/survey_app_2x/survey_app/app/View/Pages/home.ctp, line 54]
+2017-03-01 21:55:16 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/survey...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/survey...', 54, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/survey...', 54, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-01 21:55:37 Error: Fatal Error (4): syntax error, unexpected end of file in [/var/www/survey/survey_app_2x/survey_app/app/View/Pages/home.ctp, line 54]
+2017-03-01 21:55:37 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/survey...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/survey...', 54, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/survey...', 54, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-01 21:59:35 Error: [NotFoundException] Invalid user
+Request URL: /users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-01 22:14:53 Error: [NotFoundException] Invalid survey ID
+Request URL: /admin/survey_questions/add
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->admin_add()
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-01 22:18:47 Error: [MissingActionException] Action SurveyQuestionsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'SurveyQuestionsController',
+  'action' => 'view',
+)
+Request URL: /survey_questions/view/2
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 22:19:26 Error: [MissingActionException] Action SurveyQuestionsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'SurveyQuestionsController',
+  'action' => 'view',
+)
+Request URL: /survey_questions/view/2
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-01 23:41:35 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2013] Lost connection to MySQL server at \'waiting for initial communication packet\', system error: 95',
+  'enabled' => true,
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(3667): Model->setSource('users')
+#5 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#6 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('User', 'fields')
+#8 /var/www/survey/survey_app_2x/survey_app/app/View/Users/login.ctp(5): FormHelper->create('User')
+#9 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(971): include('/var/www/survey...')
+#10 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(933): View->_evaluate('/var/www/survey...', Array)
+#11 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(473): View->_render('/var/www/survey...')
+#12 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#13 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#14 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2017-03-01 23:45:29 Error: [MissingViewException] View file "Pages/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/add.ctp',
+)
+Request URL: /pages/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(470): View->_getViewFileName('add')
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(963): View->render('add', NULL)
+#2 /var/www/survey/survey_app_2x/survey_app/app/Controller/PagesController.php(72): Controller->render('add')
+#3 [internal function]: PagesController->display('add')
+#4 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-03-02 00:21:39 Error: Fatal Error (4): syntax error, unexpected end of file in [/var/www/survey/survey_app_2x/survey_app/app/View/Surveys/view.ctp, line 58]
+2017-03-02 00:21:39 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /surveys/view/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/survey...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/survey...', 58, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/survey...', 58, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-02 00:21:54 Error: Fatal Error (4): syntax error, unexpected end of file in [/var/www/survey/survey_app_2x/survey_app/app/View/Surveys/view.ctp, line 58]
+2017-03-02 00:21:54 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /surveys/view/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/survey...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/survey...', 58, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/survey...', 58, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-02 00:23:19 Error: Fatal Error (4): syntax error, unexpected end of file in [/var/www/survey/survey_app_2x/survey_app/app/View/Surveys/view.ctp, line 60]
+2017-03-02 00:23:19 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /surveys/view/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/survey...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/survey...', 60, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/survey...', 60, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-02 00:34:08 Error: [NotFoundException] Invalid survey ID
+Request URL: /admin/survey_questions/add
+Stack Trace:
+#0 [internal function]: SurveyQuestionsController->admin_add()
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-02 00:34:32 Error: [PDOException] SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'order' at row 1
+Request URL: /admin/survey_questions/add/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('INSERT INTO `su...', Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Datasource/DboSource.php(1090): DboSource->execute('INSERT INTO `su...')
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(1940): DboSource->create(Object(SurveyQuestion), Array, Array)
+#4 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(1752): Model->_doSave(Array, Array)
+#5 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(2513): Model->save(Array, Array)
+#6 /var/www/survey/survey_app_2x/survey_app/app/Controller/SurveyQuestionsController.php(59): Model->saveAssociated(Array)
+#7 [internal function]: SurveyQuestionsController->admin_add('1')
+#8 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#9 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#11 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-03-02 01:12:16 Error: [MissingActionException] Action SurveysController::user_filled_surveys() could not be found.
+Exception Attributes: array (
+  'controller' => 'SurveysController',
+  'action' => 'user_filled_surveys',
+)
+Request URL: /surveys/user_filled_surveys/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveysController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-02 01:19:25 Error: [MissingViewException] View file "Pages/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/add.ctp',
+)
+Request URL: /pages/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(470): View->_getViewFileName('add')
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(963): View->render('add', NULL)
+#2 /var/www/survey/survey_app_2x/survey_app/app/Controller/PagesController.php(72): Controller->render('add')
+#3 [internal function]: PagesController->display('add')
+#4 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2017-03-02 01:43:56 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/var/www/survey/survey_app_2x/survey_app/app/View/Elements/textarea.ctp, line 6]
+2017-03-02 01:43:56 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /surveys/view/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/survey...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/survey...', 6, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/survey...', 6, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-02 01:44:23 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/var/www/survey/survey_app_2x/survey_app/app/View/Elements/textarea.ctp, line 6]
+2017-03-02 01:44:23 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /surveys/view/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/survey...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/survey...', 6, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/survey...', 6, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-02 01:45:24 Error: Fatal Error (4): syntax error, unexpected 'label' (T_STRING) in [/var/www/survey/survey_app_2x/survey_app/app/View/Elements/textfield.ctp, line 5]
+2017-03-02 01:45:24 Error: [FatalErrorException] syntax error, unexpected 'label' (T_STRING)
+Request URL: /surveys/view/1
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/survey...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/survey...', 5, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/survey...', 5, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-02 02:05:34 Error: [MissingActionException] Action SurveyQuestionsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'SurveyQuestionsController',
+  'action' => 'index',
+)
+Request URL: /survey_questions
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-02 02:12:28 Error: [PDOException] SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'order' at row 1
+Request URL: /admin/survey_questions/add/2
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('INSERT INTO `su...', Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Datasource/DboSource.php(1090): DboSource->execute('INSERT INTO `su...')
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(1940): DboSource->create(Object(SurveyQuestion), Array, Array)
+#4 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(1752): Model->_doSave(Array, Array)
+#5 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(2513): Model->save(Array, Array)
+#6 /var/www/survey/survey_app_2x/survey_app/app/Controller/SurveyQuestionsController.php(59): Model->saveAssociated(Array)
+#7 [internal function]: SurveyQuestionsController->admin_add('2')
+#8 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#9 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#11 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-03-02 02:12:29 Error: Fatal Error (4): syntax error, unexpected '<' in [/var/www/survey/survey_app_2x/survey_app/app/View/Layouts/bootstrap.ctp, line 56]
+2017-03-02 02:12:29 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /admin/survey_questions/add/2
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/survey...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/survey...', 56, Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/survey...', 56, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-02 02:12:57 Error: [PDOException] SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'order' at row 1
+Request URL: /admin/survey_questions/add/2
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('INSERT INTO `su...', Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Datasource/DboSource.php(1090): DboSource->execute('INSERT INTO `su...')
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(1940): DboSource->create(Object(SurveyQuestion), Array, Array)
+#4 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(1752): Model->_doSave(Array, Array)
+#5 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(2513): Model->save(Array, Array)
+#6 /var/www/survey/survey_app_2x/survey_app/app/Controller/SurveyQuestionsController.php(59): Model->saveAssociated(Array)
+#7 [internal function]: SurveyQuestionsController->admin_add('2')
+#8 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SurveyQuestionsController), Array)
+#9 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#11 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-03-02 02:38:11 Error: [MissingActionException] Action SurveyQuestionsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'SurveyQuestionsController',
+  'action' => 'view',
+)
+Request URL: /survey_questions/view/2
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SurveyQuestionsController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-02 02:38:43 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-02 02:39:03 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/add
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-02 02:41:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UserFilledSurveys.user_id' in 'where clause'
+Request URL: /user_filled_surveys
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('SELECT `UserFil...', Array)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Datasource/DboSource.php(673): DboSource->execute('SELECT `UserFil...', Array, Array)
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Datasource/DboSource.php(1184): DboSource->fetchAll('SELECT `UserFil...', false)
+#4 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(3038): DboSource->read(Object(UserFilledSurvey), Array)
+#5 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(3010): Model->_readDataSource('all', Array)
+#6 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /var/www/survey/survey_app_2x/survey_app/app/Controller/UserFilledSurveysController.php(27): PaginatorComponent->paginate(Array)
+#8 [internal function]: UserFilledSurveysController->index()
+#9 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UserFilledSurveysController), Array)
+#10 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UserFilledSurveysController), Object(CakeRequest))
+#12 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2017-03-02 02:56:39 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-02 02:57:10 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-02 03:00:08 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-31 01:11:29 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'Selected driver is not enabled',
+  'enabled' => false,
+)
+Request URL: /survey/survey_app_2x/survey_app/users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(3667): Model->setSource('users')
+#4 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#5 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#6 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('User', 'fields')
+#7 /var/www/survey/survey_app_2x/survey_app/app/View/Users/login.ctp(5): FormHelper->create('User')
+#8 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(971): include('/var/www/survey...')
+#9 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(933): View->_evaluate('/var/www/survey...', Array)
+#10 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(473): View->_render('/var/www/survey...')
+#11 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#12 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2017-03-31 01:27:08 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'Selected driver is not enabled',
+  'enabled' => false,
+)
+Request URL: /survey/survey_app_2x/survey_app/users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(3667): Model->setSource('users')
+#4 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#5 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#6 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('User', 'fields')
+#7 /var/www/survey/survey_app_2x/survey_app/app/View/Users/login.ctp(5): FormHelper->create('User')
+#8 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(971): include('/var/www/survey...')
+#9 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(933): View->_evaluate('/var/www/survey...', Array)
+#10 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(473): View->_render('/var/www/survey...')
+#11 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#12 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2017-04-01 12:23:28 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'Selected driver is not enabled',
+  'enabled' => false,
+)
+Request URL: /survey/survey_app_2x/survey_app/users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(3667): Model->setSource('users')
+#4 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#5 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#6 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('User', 'fields')
+#7 /var/www/survey/survey_app_2x/survey_app/app/View/Users/login.ctp(5): FormHelper->create('User')
+#8 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(971): include('/var/www/survey...')
+#9 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(933): View->_evaluate('/var/www/survey...', Array)
+#10 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(473): View->_render('/var/www/survey...')
+#11 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#12 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2017-04-01 12:26:29 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'Selected driver is not enabled',
+  'enabled' => false,
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#1 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#2 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#3 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(3667): Model->setSource('users')
+#4 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Model/Model.php(1394): Model->getDataSource()
+#5 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#6 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/Helper/FormHelper.php(480): FormHelper->_introspectModel('User', 'fields')
+#7 /var/www/survey/survey_app_2x/survey_app/app/View/Users/login.ctp(5): FormHelper->create('User')
+#8 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(971): include('/var/www/survey...')
+#9 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(933): View->_evaluate('/var/www/survey...', Array)
+#10 /var/www/survey/survey_app_2x/survey_app/lib/Cake/View/View.php(473): View->_render('/var/www/survey...')
+#11 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#12 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#13 /var/www/survey/survey_app_2x/survey_app/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 /var/www/survey/survey_app_2x/survey_app/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
